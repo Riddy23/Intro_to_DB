@@ -47,8 +47,7 @@ CREATE TABLE IF NOT EXISTS Customers (
     order_date DATE NOT NULL,
     FOREIGN KEY (customer_id)
        REFERENCES Customers(customer_id)
-       ON DELETE CASCADE
-       ON UPDATE CASCADE,
+       
 );
 
 
